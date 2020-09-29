@@ -1,0 +1,18 @@
+
+// load custom variables & mixins
+
+
+$fa-font-path:        "../fonts" !default;
+
+@import "custom/variables";
+
+
+
+// import core Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// import specific scss styles
+@import "custom/stylish-portfolio.scss";
+
+// import font icons
+@import "../node_modules/font-awesome/scss/font-awesome.scss";
