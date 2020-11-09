@@ -10,7 +10,7 @@
 
 <!-- Custom Fonts -->
 
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Dosis:200,300|Rasa&display=swap" rel="stylesheet">
 
 <!-- Custom CSS -->
@@ -34,8 +34,8 @@
 <header class="masthead d-flex">
     <div class="container text-center my-auto text-light">
         <h1 class="mb-1">DrumText</h1>
-        <div class="mb-5"> <em>music lessons from Tommy Igoe</em> </div>
-        <a class="btn btn-primary mt-5" href="#">Sign in</a> <a class="btn btn-secondary mt-5" href="#">Sign up</a> </div>
+        <div class="mb-5"> <em>Music Lessons with Tommy Igoe</em> </div>
+        <a class="btn btn-primary mt-5" href="#">Sign up</a> <a class="btn btn-outline-primary mt-5" href="#">Sign in</a> </div>
     <div class="overlay"></div>
 </header>
 
@@ -44,36 +44,107 @@
     <div class="container text-center">
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                <h1 class="mb-5">About</h1>
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                <h1 class="mb-5">FROM TOMMY</h1>
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
             </div>
         </div>
     </div>
 </section>
-
-<!-- Services -->
-<section class="content-section bg-primary text-white text-center" id="testimonials">
+<section class="content-section text-white signup" id="signup">
     <div class="container">
-        <div class="content-section-heading">
-            <h2 class="mb-5">Testimonials</h2>
+        <div class="content-section-heading text-center">
+            <h2 class="mb-5">Signup</h2>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0"> <span class="service-icon rounded-circle mx-auto mb-3"> <i class="icon-screen-smartphone"></i> </span>
-                <h4> <strong>John C</strong> </h4>
-                <p class="text-faded mb-0">"Aenean commodo ligula eget dolor"</p>
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div></div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0"> <span class="service-icon rounded-circle mx-auto mb-3"> <i class="icon-pencil"></i> </span>
-                <h4> <strong>Phil W</strong> </h4>
-                <p class="text-faded mb-0">"Maecenas nec odio et ante tincidunt tempus"</p>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5 mb-md-0"> <span class="service-icon rounded-circle mx-auto mb-3"> <i class="icon-like"></i> </span>
-                <h4> <strong>Angela C</strong> </h4>
-                <p class="text-faded mb-0">"Nam quam nunc, blandit vel, luctus lorem"</p>
-            </div>
-            <div class="col-lg-3 col-md-6"> <span class="service-icon rounded-circle mx-auto mb-3"> <i class="icon-mustache"></i> </span>
-                <h4> <strong>Stan G</strong> </h4>
-                <p class="text-faded mb-0">"Etiam sit amet orci eget eros faucibus tincidunt"</p>
-            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div>
+            <form>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input label="Email" maxlength="150" name="email" type="text" class="form-control is-invalid" value="">
+                            <div class="invalid-feedback">Email is required</div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <input type="hidden">
+                        <div class="form-group">
+                            <label class="form-label">Phone</label>
+                            <div class=" react-tel-input">
+             
+                                <input class=" form-control" placeholder="" type="tel" name="formattedPhoneNumber" value="+1">
+                                <div class=" flag-dropdown">
+                                    <div class="selected-flag" title="United States: + 1" tabindex="0" role="button" aria-haspopup="listbox">
+                                        <div class="flag us">
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label class="form-label">First Name</label>
+                            <input label="First Name" maxlength="50" name="firstName" type="text" class="form-control" value="">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label class="form-label">Last Name</label>
+                            <input label="Last Name" maxlength="100" name="lastName" type="text" class="form-control" value="">
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label class="form-label">Password</label>
+                            <input label="Password" note="Must be 8 characters or more" maxlength="100" name="password" type="password" class="form-control" value="">
+                            <small class="form-text text-muted">Must be 8 characters or more</small></div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label class="form-label">Confirm Password</label>
+                            <input label="Confirm Password" maxlength="100" name="confirmPassword" type="password" class="form-control is-invalid" value="">
+                            <div class="invalid-feedback">Please confirm your password</div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                      <div class="form-group">
+    <label for="exampleFormControlInput1">Credit Card</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+  </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="text-center mt-3">
+                 
+                    <button type="button" class="btn btn-lg btn-primary"> Signup</button>
+                    
+                    
+                    
+                       <p class="mt-5" style="font-size: .875rem">You are subscribing to receive promotional text messages (MMS &amp; SMS). <br>
+                        Message &amp; data rates may apply.</p>
+                </div>
+            </form>
         </div>
     </div>
 </section>
