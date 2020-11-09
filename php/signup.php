@@ -13,7 +13,6 @@
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Dosis:200,300|Rasa&display=swap" rel="stylesheet">
 
-
 <!-- Custom CSS -->
 <link href="../css/main.css" rel="stylesheet" type="text/css">
 </head>
@@ -27,11 +26,7 @@
         <li class="sidebar-brand"> <a class="js-scroll-trigger" href="#page-top">Drumtext</a> </li>
         <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#page-top">Sign up/in</a> </li>
         <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#about">About</a> </li>
-        
-         <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#testimonials">Testimonials</a> </li>
-        
-        
-
+        <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#testimonials">Testimonials</a> </li>
     </ul>
 </nav>
 
@@ -39,8 +34,8 @@
 <header class="masthead d-flex">
     <div class="container text-center my-auto text-light">
         <h1 class="mb-1">DrumText</h1>
-        <div class="mb-5"> <em>music lessons from the masters</em> </div>
-        <a class="btn btn-primary mt-5" href="#">Sign in</a>  <a class="btn btn-secondary mt-5" href="#">Sign up</a> </div>
+        <div class="mb-5"> <em>music lessons from Tommy Igoe</em> </div>
+        <a class="btn btn-primary mt-5" href="#">Sign in</a> <a class="btn btn-secondary mt-5" href="#">Sign up</a> </div>
     <div class="overlay"></div>
 </header>
 
@@ -51,14 +46,11 @@
             <div class="col-lg-10 mx-auto">
                 <h1 class="mb-5">About</h1>
                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-             </div>
+            </div>
         </div>
     </div>
 </section>
 
-    
-    
-    
 <!-- Services -->
 <section class="content-section bg-primary text-white text-center" id="testimonials">
     <div class="container">
@@ -86,11 +78,6 @@
     </div>
 </section>
 
-    
-    
-    
-
-
 <!-- Footer -->
 <footer class="footer text-center">
     <div class="container">
@@ -114,9 +101,7 @@
 <script src="../js/jquery.easing.min.js"></script> 
 
 <!-- Custom scripts for this template --> 
-<script src="../js/stylish-portfolio.min.js"></script> 
-
-
+<script src="../js/stylish-portfolio.min.js"></script>
 </body>
 </html>
 
