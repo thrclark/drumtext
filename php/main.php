@@ -78,7 +78,6 @@
                         <div class="form-group">
                             <label class="form-label">Phone</label>
                             <div class=" react-tel-input">
-             
                                 <input class=" form-control" placeholder="" type="tel" name="formattedPhoneNumber" value="+1">
                                 <div class=" flag-dropdown">
                                     <div class="selected-flag" title="United States: + 1" tabindex="0" role="button" aria-haspopup="listbox">
@@ -128,20 +127,16 @@
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
-                      <div class="form-group">
-    <label for="exampleFormControlInput1">Credit Card</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-  </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Credit Card</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        </div>
                     </div>
                     <div class="col-md-1"></div>
                 </div>
                 <div class="text-center mt-3">
-                 
                     <button type="button" class="btn btn-lg btn-primary"> Signup</button>
-                    
-                    
-                    
-                       <p class="mt-5" style="font-size: .875rem">You are subscribing to receive promotional text messages (MMS &amp; SMS). <br>
+                    <p class="mt-5" style="font-size: .875rem">You are subscribing to receive promotional text messages (MMS &amp; SMS). <br>
                         Message &amp; data rates may apply.</p>
                 </div>
             </form>
