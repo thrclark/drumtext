@@ -1,2 +1,16 @@
 //cutsom styles here
 
+.signup {
+   background: linear-gradient(90deg, #112441a8 2%, rgba(6, 33, 51, 0.12) 100%), url(../img/bg-masthead.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.packages {
+   margin-bottom: 10rem;
+   .card {
+      margin-bottom: 2rem;
+   }
+}
