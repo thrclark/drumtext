@@ -18,55 +18,41 @@
 </head>
 
 <body id="page-top">
-
-<!-- Navigation --> 
-<a class="menu-toggle rounded" href="#"> <i class="fa fa-bars"></i> </a>
-<nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-        <li class="sidebar-brand"> <a class="js-scroll-trigger" href="#page-top">Drumtext</a> </li>
-        <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#page-top">Sign up/in</a> </li>
-        <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#about">About</a> </li>
-        <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#testimonials">Testimonials</a> </li>
-    </ul>
-</nav>
-
-<!-- Header -->
-<header class="masthead d-flex">
-    <div class="container text-center my-auto text-light">
-        <h1 class="mb-1">DrumText</h1>
-        <div class="mb-5"> <em>Music Lessons with Tommy Igoe</em> </div>
-        <a class="btn btn-primary mt-5" href="#">Sign up</a> <a class="btn btn-outline-primary mt-5" href="#">Sign in</a> </div>
-    <div class="overlay"></div>
-</header>
-<div class="mt-4 container">
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <h3 class="text-center mb-3">DrumText Login</h3>
-            <form action="/login" method="post" class="">
-                <div class="form-group">
-                    <label class="form-label">Email</label>
-                    <input label="Email" name="username" type="text" class="form-control" value="thrclark@gmail.com">
-                </div>
-                <div class="form-group">
-                    <label class="form-label">Password</label>
-                    <input label="Password" name="password" type="password" class="form-control" value="">
-                </div>
-                <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-            </form>
-            <br>
-            <div class="text-center">
-                <button type="button" class="btn btn-link">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor">
-                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
-                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"></path>
-                </svg>
-                Forgot your password?</button>
-            </div>
+<section class="content-section text-white signup" id="signup" style="height: 100vh">
+    <div class="container">
+        <div class="content-section-heading text-center">
+            <h2 class="mb-5">Sign in</h2>
         </div>
-        <div class="col-md-4"></div>
+        <div>
+            <form>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input label="Email" maxlength="150" name="email" type="text" class="form-control" value="">
+                            <div class="invalid-feedback"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Password</label>
+                            <input label="" maxlength="150" name="email" type="password" class="form-control" value="">
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                <div class="text-center mt-3">
+                    <a href="user-home.php" class="btn btn-primary mx-2">Sign in</a>
+                    <a href="main.php" class="btn btn-outline-primary mx-2">Cancel</a>
+                    <div class="my-5"><a href="recover.php" style="font-size: 1rem">Forgot password?</a></div>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
+</section>
+
+<!-- Scroll to Top Button--> 
+<a class="scroll-to-top rounded js-scroll-trigger" href="#page-top"> <i class="fa fa-angle-up"></i> </a> 
 
 <!-- Bootstrap core JavaScript --> 
 <script src="../js/jquery.min.js"></script> 

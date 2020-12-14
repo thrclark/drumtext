@@ -24,9 +24,9 @@
 <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <li class="sidebar-brand"> <a class="js-scroll-trigger" href="#page-top">Drumtext</a> </li>
-        <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#page-top">Sign up/in</a> </li>
+        <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#signup">Sign up/in</a> </li>
         <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#about">About</a> </li>
-        <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#testimonials">Testimonials</a> </li>
+        <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#contact">Contact</a> </li>
     </ul>
 </nav>
 
@@ -35,33 +35,18 @@
     <div class="container text-center my-auto text-light">
         <h1 class="mb-1">DrumText</h1>
         <div class="mb-5"> <em>Music Lessons with Tommy Igoe</em> </div>
-        <a class="btn btn-primary mt-5" href="#">Sign up</a> <a class="btn btn-outline-primary mt-5" href="#">Sign in</a> </div>
+        <a class="btn btn-primary my-5 mx-2 js-scroll-trigger" href="#signup">Sign up</a> <a class="btn btn-outline-primary my-5 mx-2" href="signin.php">Sign in</a> </div>
     <div class="overlay"></div>
 </header>
 
 <!-- About -->
-<section class="content-section bg-light" id="about">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-lg-10 mx-auto">
-                <h1 class="mb-5">FROM TOMMY</h1>
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-            </div>
-        </div>
-    </div>
-</section>
+
 <section class="content-section text-white signup" id="signup">
     <div class="container">
         <div class="content-section-heading text-center">
             <h2 class="mb-5">Signup</h2>
         </div>
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <div></div>
-            </div>
-            <div class="col-md-1"></div>
-        </div>
+
         <div>
             <form>
                 <div class="row">
@@ -143,9 +128,21 @@
         </div>
     </div>
 </section>
+    
+    <section class="content-section bg-light" id="about">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <h1 class="mb-5">FROM TOMMY</h1>
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    
 
 <!-- Footer -->
-<footer class="footer text-center">
+<footer class="footer text-center" id="contact">
     <div class="container">
         <ul class="list-inline mb-5">
             <li class="list-inline-item"> <a class="social-link rounded-circle text-white mr-3" href="#"> <i class="fa fa-facebook"></i> </a> </li>
